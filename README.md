@@ -1,4 +1,4 @@
-<img src="https://raw.github.com/csexton/viceroy/master/viceroy/logo.png" align="right" />
+<img src="https://raw.github.com/mschueler/viceroy/master/viceroy/logo.png" align="right" />
 
 Viceroy is a configuration of the [Vim text editor](http://www.vim.org/). It is a set of Vim scripts that help programmers get the most out of Vim with common options that advanced vim users would set.
 
@@ -6,9 +6,9 @@ Who is this for? Teams that want a standard vim configuration to share, particul
 
 Viceroy is not intended to be a crutch that experienced vim users would get annoyed at. Yes, it is opinionated, but tries to follow best practices of the community. The goal is to have a solid set a defaults with an easy way to customize. If you think something should be changed please submit a pull request. Together we can make this project a rock solid base for writing code in Vim.
 
-To install simply run this command (if you trust me, otherwise clone the [git repo](http://github.com/csexton/viceroy)):
+To install simply run this command (if you trust me, otherwise clone the [git repo](http://github.com/mschueler/viceroy)):
 
-    $ curl -L https://raw.github.com/csexton/viceroy/master/bootstrap.sh -o - | sh
+    $ curl -L https://raw.github.com/mschueler/viceroy/master/bootstrap.sh -o - | sh
 
 Included are a set of plugin bundles that really unleash the power of Vim. They are not installed by default, but can easily be downloaded and installed by running this command in Vim:
 
@@ -31,7 +31,7 @@ Since Viceroy uses pathogen under the covers, adding additional plugins is easy.
 Here is an example `.vim-bundles`:
 
     # Repos on github
-    csexton/jekyll.vim
+    mschueler/jekyll.vim
     tpope/vim-fugitive
 
     # Vim Scripts repos
@@ -47,6 +47,6 @@ Here is an example `.vim-bundles`:
     ~jslint.vim
     ~gist-vim
 
-The default bundles are listed in Viceroy's [Bundlefile](https://github.com/csexton/viceroy/blob/master/Bundlefile).
+The default bundles are listed in Viceroy's [Bundlefile](https://github.com/mschueler/viceroy/blob/master/Bundlefile).
 
-This is supposed to be a community driven project. If you have suggestions or changes please add an [issue](https://github.com/csexton/viceroy/issues), check the [wiki](https://github.com/csexton/viceroy/wiki) or best of all a [pull request](https://github.com/csexton/viceroy/pulls).
+This is supposed to be a community driven project. If you have suggestions or changes please add an [issue](https://github.com/mschueler/viceroy/issues), check the [wiki](https://github.com/mschueler/viceroy/wiki) or best of all a [pull request](https://github.com/mschueler/viceroy/pulls).
